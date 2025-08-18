@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perusahaan</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        .container {
+            @apply max-w-5xl
+        }
+    </style>
+</head>
+<body>
+    <!--navigasi-->
+    <nav>
+        <div class=" px-6 bg-slate-300 container mx-auto flex items-center justify-between py-5 ">
+            <a href="" class="w-30">
+                <img src="/img/logo_haris_jamil-removebg-preview.png" >
+            </a>
+            <div class="hidden md:inline space-x-6 font-semibold">
+                <a class="hover:text-red-500" href="">pricing</a>
+                <a class="hover:text-red-500" href="">product</a>
+                <a class="hover:text-red-500" href="">about</a>
+                <a class="hover:text-red-500" href="">career</a>
+                <a class="hover:text-red-500" href="">comunity</a>
+            </div>
+            <button class="hidden md:inline bg-red-500 text-white px-4 py-2 rounded-3xl">Create acount</button>
+            <img src="img/icon-hamburger.svg"class="hamburger md:hidden ">
+        </div>
+        <!--mobile menu-->
+        <div class="md:hidden">
+        <div class="container menu absolute top-16 hidden flex flex-col bg-white shadow-md inset-x-0 mx-auto px-6 py-5">
+                <a class="hover:text-red-500" href="">Pricing</a>
+                <a class="hover:text-red-500" href="">Product</a>
+                <a class="hover:text-red-500" href="">About</a>
+                <a class="hover:text-red-500" href="">Career</a>
+                <a class="hover:text-red-500" href="">Comunity</a>
+                <a class="hover:text-red-500" href="">Create Account</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--hero section-->
+    <section class="container px-6 mx-auto md:flex md:justify-between items-center my-6 space-x-6">
+        <div class="md:w-3/6 text-center md:text-left">
+            <h4 class="text-xl font-bold">New Feature</h4>
+            <h3 class="text-5xl font-bold mb-5">Coming up with fresh ideas</h3>
+            <p class="text-blue-500 mb-5">a series of activities aimed at creating a unique identity and positive impression of a product in the eyes of consumers, so that the product can be distinguished from competitors and has strong a</p>  
+            <button class="bg-red-500 text-white px-4 py-2 rounded-3xl">Create acount</button>
+        </div>
+        <img class="md:w-3/6" src="/img/image_brand-removebg-preview.png" alt=""> 
+    </section>
+    <!--partner-->
+    <section class="bg-slate-300 p-10 my-5">
+        <div class="container mx-auto grid grid-cols-2 gap-5 justify-items-center md:flex md:justify-around items-center max-w-5xl">
+            <img class="w-30" src="/img/img_vans-removebg-preview.png" alt="">
+            <img class="w-32" src="/img/img_harris-removebg-preview.png" alt="">
+            <img class="w-32" src="/img/rolex-old--removebg-preview.png" alt="">
+            <img class="w-32" src="/img/img_nike-removebg-preview.png" alt="">
+            <img class="w-32" src="/img/img_sarung_BHS-removebg-preview.png" alt="">
+        </div>
+    </section>
+    <!--portofolio-->
+    <section class="container mx-auto space-x-6 md:flex md:justify-between items-center">
+        <img src="/img/img_pembeisnis-removebg-preview.png" class="w-3/4 md:w-3/6 mx-auto" alt="">
+        <div class="md:w-3/6 text-center md:text-left">
+            <h4 class="text-xl font-bold">statistic</h4>
+            <h4 class="text-3xl font-bold">what we can do for you</h4>
+            <p class="text-gray-500">We are ready to advance the company with my help to make it more well-known through technology media.</p>
+        <div class="flex justify-between py-6 max-w-88 mx-auto">
+        <!--portofolio 1-->
+        <div class="text-center text-gray-500">
+            <h4 class="text-2xl font-bold text-gray-900">20+</h4>
+            <p>portofolio</p>
+        </div>
+        <!--portofolio 2-->
+        <div class="text-center text-gray-500">
+            <h4 class="text-2xl font-bold text-gray-900">200+</h4>
+            <p>customer</p>
+        </div>
+        <!--portofolio 3-->
+        <div class="text-center text-gray-500">
+            <h4 class="text-2xl font-bold text-gray-900">5.0%</h4>
+            <p>ranting</p>
+        </div>
+    </div>
+        <p class="text-gray-500 mb-4"><span class="font-bold ">info</span> 100% Terpercaya amanah dan terpercaya</p>
+        <button class="bg-red-500 text-white px-4 py-2 rounded-3xl">Detail</button>
+    </div>
+    </section>
+    <!--testimoni-->
+    <section class="container mx-auto p-10 my-5 text-center">
+        <h4 class="text-xl font-bold">Testimonies</h4>
+        <h3 class="text-3xl font-bold">what they say </h3>
+        <div class="md:flex md:justify-between mt-16 space-x-8">
+            <!--person1-->
+            <div class="bg-gray-100 md:w-1/3 rounded-md border border-gray-200">
+                <img class="w-12 rounded-full mx-auto mt-8 " src="/img/muhammad-sadad-ceo.webp" alt="">
+                <h5 class="font-bold pt-5">Muhammad Sadad</h5>
+                <p class="p-5 text-gray-500">The brand is very good and reliable and trustworthy, the best</p>
+            </div>
+            <!--person2-->
+            <div class="hidden md:inline bg-gray-100 w-1/3 rounded-md border border-gray-200">
+                <img class="w-16 rounded-full mx-auto mt-8 " src="/img/randy kartadinata.jpg" alt="">
+                <h5 class="font-bold pt-5">Randy Kartadinata</h5>
+                <p class="p-5 text-gray-500">The brand is very good and reliable and trustworthy, the best</p>
+            </div>
+            <!--person3-->
+            <div class="hidden md:inline bg-gray-100 w-1/3 rounded-md border border-gray-200">
+                <img class="w-16 rounded-full mx-auto mt-8 " src="/img/Rama-Suparta.jpeg" alt="">
+                <h5 class="font-bold pt-5">Rama suparta</h5>
+                <p class="p-5 text-gray-500">The brand is very good and reliable and trustworthy, the best</p>
+            </div>  
+        </div>
+        <button class="bg-red-500 text-white px-4 py-2 rounded-3xl mt-10">See all Testimonies</button>
+    </section>
+
+    <!--fotter-->
+    <section class="px-6 container mx-auto sm:grid sm:grid-cols-2 md:grid-cols-3 lg:flex lg:justify-between bg-top bg-no-repeat pb-10 text-gray-500" style="background-image: url(/img/image_brand-removebg-preview.png);">
+        <div class="mb-4">
+            <img src="/img/logo_haris_jamil-removebg-preview.png" class="w-32"/>
+            <p class="mt-5 text-green-800">Hallo@jerryyss.com <br>0898921299</p>
+        </div>
+        <div class="mb-4">
+            <h4 class="font-bold text-xl mb-4">About Us</h4>
+            <ul class="space-y-2 ">
+                <li><a href="">Support</a></li>
+                <li><a href="">customer</a></li>
+                <li><a href="">History</a></li>
+            </ul>
+        </div>
+        <div class="mb-4">
+            <h4 class="font-bold text-xl mb-4">company</h4>
+            <ul class="space-y-2 ">
+                <li><a href="">Support</a></li>
+                <li><a href="">customer</a></li>
+                <li><a href="">History</a></li>
+            </ul>
+        </div>
+        <div class="mb-4">
+            <h4 class="font-bold text-xl mb-4">Privasy Policy</h4>
+            <ul class="space-y-2 ">
+                <li><a href="">Support</a></li>
+                <li><a href="">customer</a></li>
+                <li><a href="">History</a></li>
+            </ul>
+        </div>
+    </section>
+    <script src="javascript/main.js"></script>
+</body>
+</html>
